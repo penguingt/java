@@ -11,7 +11,7 @@ public class Project4_2
 		int len3 = reader.nextInt();
 		if(len1 <=0 || len2 <= 0 || len3 <=0)
 		{
-			System.out.println("Invalid input");
+			System.out.println("Invalid input! Please enter a positive value.");
 		}
 		else if ( len1 > len3 && len1 > len2)
 		{
